@@ -24,3 +24,4 @@ app.get('/fetch', async (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Proxy live on port ${PORT}`));
+require('dotenv').config();
